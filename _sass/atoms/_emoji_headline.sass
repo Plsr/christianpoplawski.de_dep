@@ -1,0 +1,11 @@
+.aEmojiHeadline
+  color: $color-black
+  position: relative
+  font-size: $font-size-huge
+  font-weight: $font-weight-bold
+
+  &.withWavingEmoji
+    &:before
+      content: '👋'
+      position: absolute
+      right: calc(100% + 30px)

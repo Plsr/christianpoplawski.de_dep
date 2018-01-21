@@ -9,20 +9,20 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="theme-color" content="#ffffff">
     <title>{{ page.title }}</title>
-    <meta name=”description” content=”Christian Poplawski is a Designer and Developer from Cologne, Germany”>
+    <meta name=”description” content=”{{ site.description }}”>
     <meta http-equiv=”language” content=”en”>
     <meta property="og:title" content="{{ page.title }}"/>
     <meta property="og:image" content="/og_image.png"/>
     <meta property="og:image:width" content="1200"/>
     <meta property="og:image:height" content="700"/>
-    <meta property="og:url" content="{{ page.url }}"/>
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:site_name" content="{{ page.title }}"/>
-    <meta property="og:description" content="Christian Poplawski is a Designer and Developer from Cologne, Germany"/>
+    <meta property="og:site_name" content="{{ site.title }}"/>
+    <meta property="og:description" content="{{ site.description }}"/>
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@_chrispop" />
-    <meta name="twitter:title" content="{{ page.title }}" />
-    <meta name="twitter:description" content="Christian Poplawski is a Designer and Developer from Cologne, Germany" />
+    <meta name="twitter:title" content="{{ site.title }}" />
+    <meta name="twitter:description" content="{{ site.description }}" />
     <meta name="twitter:image" content="/og_image.png" />
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">

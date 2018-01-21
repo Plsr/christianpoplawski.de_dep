@@ -4,8 +4,14 @@
   font-size: $font-size-huge
   font-weight: $font-weight-bold
 
+  @media screen and (max-width: 700px)
+    font-size: $font-size-big
+
   &.withWavingEmoji
     &:before
       content: '👋'
       position: absolute
       right: calc(100% + 30px)
+
+      @media screen and (max-width: 700px)
+        right: calc(100% + 10px)

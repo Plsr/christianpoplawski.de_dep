@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<div class="lSingleArticle">
+  <article class="aArticle">
+    <h2 class="aArticle-Headline">{{ page.title }}</h2>
+    <span class="aArticle-Meta">Published on {{ page.date | date_to_long_string }}</span>
+    <section class="aArticle-Content">
+      {{ content }}
+    </section>
+  </article>
+</div>
+

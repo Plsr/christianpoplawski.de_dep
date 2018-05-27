@@ -12,4 +12,4 @@ Marktstr. 8
 50968 Köln
 
 Kontakt:  
-E-Mail: mail@mildlyinterested.net
+E-Mail: hello@christianpoplawski.de 
